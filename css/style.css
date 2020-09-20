@@ -1,0 +1,11 @@
+* {
+    font-family: 'Source Code Pro', monospace;
+}
+
+.navbar-brand {
+    padding-top: 0.125rem;
+}
+
+.github-icon {
+    margin-right: 10rem;
+}
