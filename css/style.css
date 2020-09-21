@@ -1,5 +1,6 @@
 * {
     font-family: 'Source Code Pro', monospace;
+    scroll-behavior: smooth;
 }
 
 .navbar-brand {
@@ -10,15 +11,11 @@
     margin-right: 1.25rem;
 }
 
-.about {
-    margin-top: 5rem;
-}
-
 .footer {
-    color: #999;
+    color: #d5d5d5;
     text-align: center;
-    background-color: #f9f9f9;
-    border-top: .05rem solid #e5e5e5;
+    background-color: #3f3f3f;
+    border-top: .05rem solid #2f2f2f;
     padding: 2.5rem;
 }
 
@@ -27,6 +24,35 @@ p {
     margin-bottom: 1rem;
 }
 
-a {
-    color: #007bff;
+.temp {
+    margin-bottom: 100rem;
+}
+
+.hr-normal {
+    padding-bottom: 1rem;
+}
+
+.hr-light {
+    color: #e5e5e5;
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: 2rem;
+
+}
+
+.btt {
+    color: #d5d5d5;
+}
+
+.btt:hover {
+    color: #e5e5e5;
+}
+
+.wcs {
+    margin-left: 17.75rem;
+    margin-bottom: 4rem;
+}
+
+.meta {
+    color: #999;
 }
